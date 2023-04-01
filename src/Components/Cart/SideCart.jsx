@@ -61,9 +61,9 @@ function SideCart(props) {
     </div>
 
   </div>
-  let jamal = []
+  let jamal =props.cart+props.cart;
 
-  if (props.cart===[]) {
+  if (jamal==0) {
     jamal = <div className="CartItems" id="puki">
       <div className="CartItem" id="kaki">
         <Button variant="outline-light" id="cool" onClick={() => setNewPage(!gold)}>Вернуться назад</Button>
