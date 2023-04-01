@@ -41,10 +41,10 @@ function App(){
     }
     if (!alreadyAdded) {
       setCart(prev => [...prev, newProd])
-  }
-  else {
+    } 
+    else {
       setCart(cart.filter(p => p.id !== newProd.id));
-  }
+    }
 
     
   }
