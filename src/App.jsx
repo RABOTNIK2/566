@@ -19,7 +19,7 @@ function App(){
   function addToFav(newFav){
     let alreadyAdded1 = false
     for (let b = 0; b < favor.length; b++) {
-      if (favor[b]['id'] == newFav.id) {
+      if (favor[b]['id'] === newFav.id) {
           alreadyAdded1 = true
       }
     }
@@ -35,7 +35,7 @@ function App(){
     
     let alreadyAdded = false
     for (let i = 0; i < cart.length; i++) {
-      if (cart[i]['id'] == newProd.id) {
+      if (cart[i]['id'] === newProd.id) {
           alreadyAdded = true
       }
     }
